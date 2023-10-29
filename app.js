@@ -8,9 +8,9 @@ app.listen(port, () => {
   console.log("connected");
 });
 
-app.get("/", (req, res) => {
-  res.send("hello");
-});
+// app.get("/", (req, res) => {
+//   res.send("hello");
+// });
 
 app.use(express.json());
-app.use("/post", user);
+app.use("/users", user);
