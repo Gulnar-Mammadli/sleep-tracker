@@ -4,7 +4,8 @@
   "description": "This is an application to track user's sleep quality and duration",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "Gulnar Mammadli",
   "license": "MIT",
@@ -15,6 +16,8 @@
   },
   "dependencies": {
     "envalid": "^8.0.0",
+    "joi": "17.11.0",
+    "nodemon": "^3.0.1",
     "pg": "^8.11.3",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.33.0"
