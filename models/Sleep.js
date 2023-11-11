@@ -45,7 +45,7 @@ const Sleep = db.define(
     },
   },
   {
-    tableName: "sleep-entries",
+    tableName: "sleep_entries",
     timestamps: false,
   }
 );
